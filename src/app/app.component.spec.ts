@@ -8,12 +8,12 @@ import { Todo } from './todo';
 describe('AppComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
+      imports: [
+        FormsModule
+      ],
       declarations: [
         AppComponent
       ],
-      imports: [
-        FormsModule
-      ]
     });
     TestBed.compileComponents();
   });
@@ -39,4 +39,5 @@ describe('AppComponent', () => {
    let compiled = fixture.debugElement.nativeElement;
    expect(compiled.querySelector('h1').textContent).toContain('Todos');
  }));
-});
+
+});// describe
