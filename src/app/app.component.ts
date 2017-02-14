@@ -37,9 +37,4 @@ export class AppComponent {
     return this.todoDataService.getAllTodos();
   }
 
-  // Service is now available as this.todoDataService
- toggleTodoComplete(todo) {
-   this.todoDataService.toggleTodoComplete(todo);
- }
-
 }
