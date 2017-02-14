@@ -1,4 +1,7 @@
+
 # TodoApp
+
+This demo project is the result of a simple utorial located @ https://www.sitepoint.com/angular-2-tutorial/
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
