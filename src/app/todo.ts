@@ -6,10 +6,4 @@ export class Todo {
   constructor(values: Object = {}) {
     Object.assign(this, values);
   }
-
-  let todo = new Todo({
-    title: 'Read the site point tutorial!',
-    complete: false;
-  });
-
 }
